@@ -6,7 +6,7 @@ import argparse
 
 def search(cve):
     print("\033[1;33;40m[+] Downloading table...")
-    tables=pandas.read_html("./CVEMS.html")
+    tables=pandas.read_html("https://cve.mitre.org/data/refs/refmap/source-MS.html")
     print("\033[1;33;40m[+] Looking up...\n")
     cveTable=tables[3]
     for index, x in enumerate(cveTable[1]):
