@@ -14,7 +14,7 @@ Usage: `python3 cvems.py -c CVE-2000-0053`
 The CVE number must be formatted as the example (CVE-xxxx-xxxx).
 
 ## Example
-![Searching the MS number corresponding to CVE-2000-0098](cvems.jpg)
+![Searching the MS number corresponding to CVE-2000-0098](Images/cvems.jpg)
 
 
 
