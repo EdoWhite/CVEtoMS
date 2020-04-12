@@ -1,4 +1,4 @@
-# CVEtoMS
+# CVEtoMS.py
 Simple program to search for MS exploit code from CVE.
 The "database" used is the CVEMS.html file, that is the html of https://cve.mitre.org/data/refs/refmap/source-MS.html.
 This page contains the table with the CVE MS reference.
